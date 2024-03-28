@@ -15,12 +15,12 @@ yarn add strapi-provider-email-outlook
 
 - Add this code in your `./config/plugin.js` of your strapi
 
-``` javascript
+``` js
 module.exports = ({ env }) => ({
     // ...
     email: {
       config: {
-        provider: 'outlook',
+        provider: 'strapi-provider-email-outlook',
         providerOptions: {
           client_id: env('OUTLOOK_CLIENT_ID'),
           client_secret: env('OUTLOOK_CLIENT_SECRET'),
