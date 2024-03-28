@@ -1,0 +1,11 @@
+{
+  "name": "strapi-provider-email-outlook",
+  "version": "0.5.0",
+  "main": "./src/index.js",
+  "repository": "git@github.com:SamanFekri/provider-email-outlook.git",
+  "author": "Saman <samanf74@gmail.com>",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "axios": "^1.6.8"
+  }
+}
